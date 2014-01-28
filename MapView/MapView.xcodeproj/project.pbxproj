@@ -928,6 +928,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = MapBox;
 				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos6.1;
 			};
 			name = Debug;
 		};
@@ -949,6 +950,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = MapBox;
+				SDKROOT = iphoneos6.1;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -981,7 +983,7 @@
 				);
 				OTHER_LDFLAGS = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos6.1;
 				SEPARATE_STRIP = YES;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1012,7 +1014,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos6.1;
 				SEPARATE_STRIP = YES;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
